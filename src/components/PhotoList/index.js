@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const PhotoList = ({ category }) => {
   const [photos] = useState([
@@ -116,7 +116,7 @@ const PhotoList = ({ category }) => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
-  ])
+  ]);
 
   const currentPhotos = photos.filter(photo => photo.category === category)
 
@@ -136,4 +136,4 @@ const PhotoList = ({ category }) => {
   )
 }
 
-export default PhotoList
+export default PhotoList;
